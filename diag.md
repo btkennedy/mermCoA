@@ -1,1 +1,15 @@
+graph TD
+A[You wake up.] --> B{Will you drink coffee?}
 
+B -- Yes --> C[It's delicious!]
+B -- No --> D[That's to bad]
+
+C --> E{Will you have breakfast?}
+
+D --> F{Will you go back to bed?}
+
+E -- Yes --> G[You have a great day]
+E -- No --> H[Your day is only OK, because you're hungry]
+
+F -- Yes --> I[You spend all day in bed and accomplish nothing]
+F -- No --> J[You're tired and have a bad day]
