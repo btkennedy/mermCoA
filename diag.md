@@ -12,4 +12,7 @@ graph TD
   E -- No --> H[Your day is only OK, because you're hungry]
 
   F -- Yes --> I[You spend all day in bed and accomplish nothing]
-  F -- No --> J[You're tired and have a bad day]
+  F -- No --> J{Now will you have that cup of coffee?}
+
+  J -- Yes --> C
+  J -- No --> K[You have a bad day!]
