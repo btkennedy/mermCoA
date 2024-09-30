@@ -1,3 +1,4 @@
+```mermaid
 graph TD
   A[You wake up.] --> B{Will you drink coffee?}
 
@@ -16,3 +17,4 @@ graph TD
 
   J -- Yes --> C
   J -- No --> K[You have a bad day!]
+```
