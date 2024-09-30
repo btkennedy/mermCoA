@@ -18,4 +18,4 @@ graph TD
   J -- Yes --> C
   J -- No --> K[You have a bad day!]
 ```
-##This choose your own adventure style flowchart shows the importance of starting your day right
+## This choose your own adventure style flowchart shows the importance of starting your day right
